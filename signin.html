@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN FORM</title>
+    <style>
+        input{
+            width:30%;
+            height:30px;
+            border-color:red;
+            background-color:aliceblue;
+        }
+        select{
+            width:30%;
+            padding:16px 20px;
+            border-radius:4px;
+            background-color:aqua;
+            border-color:brown;
+        }
+        input[type=submit],input[type=reset]{
+            background-color:pink;
+            border-color:#008000;
+            color:red;
+            padding:16px 32px;
+            text-decoration:wavy;
+            margin:4px 2px;
+            cursor:cell;
+            width:20%;
+            height:10%;
+        }
+        input[type=submit]:hover{
+            background-color:black;
+        }
+    
+        input[type=reset]:hover{
+            background-color:black;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color:blueviolet;">sign-up</h2>
+
+    <form>
+        <label for="fname" style="color:blue; font-style:italic">First Name</label><br><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname" style="color:blue; font-style:italic">Last Name</label><br><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="contact" style="color:blue; font-style:italic">Contact</label><br><br>
+        <input type="text" id="contact" name="contact"><br><br>
+        <label for="address" style="color:blue; font-style:italic">Address</label><br><br>
+        <input type="text" id="address" name="address"><br><br>
+        <label for="Area" style="color:blue; font-style:italic">Area</label><br><br>
+        <input type="Area" id="Area" name="Area">
+    </form>
+    <h2 style="color:blueviolet;">Select area</h2>
+    <form>
+        <select id="Area" name="Area">
+        <option value="sa">Select Area</option>
+        <option value="hb">Housing board</option>
+        <option value="vn">Vinayaka nagara</option>
+        <option value="kp">KR Puram</option>
+        <option value="sh">Shankripuram</option>
+        <option value="hr">Hosaline road</option>
+        <option value="80">80 feet road</option>
+        <option value="vk">Vivek nagara</option>
+        <option value="gk">Gowri koppalu</option>
+        </select>
+    </form>
+    <h2 style="color:blueviolet;">Submit buttons</h2>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</head>
+</body>
+</html>
